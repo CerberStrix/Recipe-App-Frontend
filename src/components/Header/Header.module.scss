@@ -1,0 +1,55 @@
+.root {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  img {
+    margin-right: 10px;
+  }
+
+  h1 {
+    color: #181818;
+    font-size: 20px;
+    letter-spacing: 1%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &:hover {
+    background-color: #4361ee;
+
+    h1 {
+      color: white;
+    }
+  }
+}
+
+.buttons {
+  button {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 50px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
