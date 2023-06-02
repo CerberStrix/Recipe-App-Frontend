@@ -34,7 +34,7 @@ export const FullRecipe = () => {
         ingridients={obj.ingridients}
         description={obj.description}
         coockingTime={obj.coockingTime}
-        imageUrl={`${process.env.REACT_APP_API_URL}${obj.imageUrl}`}
+        imageUrl={`${process.env.REACT_APP_API_URL}/${obj.imageUrl}`}
         createdAt={obj.createdAt}
         isEditable
         isFullPost>
