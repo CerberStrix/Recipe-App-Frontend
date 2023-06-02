@@ -71,7 +71,7 @@ export const Post = ({
                 </li>
               ))}
             </ul>
-            <h4 className={styles.coockingTime}>Время приготовления: {coockingTime}</h4>
+            <h5 className={styles.coockingTime}>Время приготовления: {coockingTime}</h5>
             <div style={{ 'text-align': 'center' }}>
               <span>{dayName}</span>
             </div>
