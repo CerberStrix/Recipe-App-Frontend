@@ -36,7 +36,7 @@ export const Post = ({
   };
   const dayName = new Date(createdAt).toLocaleDateString('ru-RU');
 
-  console.log(coockingTime);
+  console.log(imageUrl);
   return (
     <Grid item xs={4}>
       <div className={clsx(styles.root, { [styles.rootFull]: isFullPost })}>
